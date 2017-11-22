@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#e1e1e1"
+    android:orientation="vertical" >
+
+
+    <ListView
+        android:id="@+id/msgListView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:paddingBottom="10dp"
+        android:text="@string/hello_world"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/contactSpinner" />
+
+
+    <LinearLayout
+        android:id="@+id/form"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#c2c8ec"
+        android:orientation="horizontal"
+        android:paddingBottom="2dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true">
+
+
+        <EditText
+            android:id="@+id/messageEditText"
+            android:hint="Your message "
+            android:layout_width="0dp"
+            android:layout_height="76dp"
+            android:layout_weight="0.72"
+            android:ems="10"
+            android:maxHeight="80dp"
+            android:inputType="none" />
+
+        <ImageButton
+            android:id="@+id/sendMessageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/send_button"
+             />
+    </LinearLayout>
+
+
+    <!--<EditText-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:hint="Enter contact name here "-->
+        <!--android:text=""-->
+        <!--android:ems="10"-->
+        <!--android:id="@+id/contactEditText"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentEnd="true" />-->
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contactSpinner"
+        android:hint="select a contact"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:background="#dbd8d8"></Spinner>
+
+
+</RelativeLayout>

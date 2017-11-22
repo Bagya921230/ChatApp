@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Chat Chat</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">Favourites</string>
+    <string name="title_section2">Chats</string>
+    <string name="title_section3">Contacts</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="server">inovsitsys.local</string>
+    <!--<string name="server">xmpp.jp</string>-->
+    <!--<string name="server">milan-pc</string>-->
+    <string-array name="contacts">
+        <item>Bagya</item>
+        <item>Nuwanthi</item>
+        <item>Krishan</item>
+        <item>khushi</item>
+    </string-array>
+</resources>
